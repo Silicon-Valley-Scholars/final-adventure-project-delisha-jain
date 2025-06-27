@@ -83,7 +83,7 @@ def Qthree():
             Qfour()
 print("hello fellow traveler! Today is a fine and beautiful day.")
 name = input("What is your name? ")
-print("Hello, ",name,". It is 3012 AE and you are on planet CIRCE. We are your guides until you die, I mean win. You currently have 0 gold and 100 health."
+print("Hello, ",name,". It is 3012 AE and you are on Isle of Berk. We are your guides until you die, I mean win. You currently have 0 gold and 100 health."
       "You want to go home? Get 5 gold coins to afford a ticket and the resources to get there. Good luck, the journey is far from safe!")
 qone = input("Are you ready? ")
 if qone == "yes":
@@ -95,7 +95,7 @@ if qone == "yes":
         print ("health : " + str(health))
         print ("gold : " + str(gold))
     if qtwo == "2":
-        print ("The aliens are offended by the sheer disrespect you have for them. The kick you out without anything for the journey. You lose 25 health.")
+        print ("The Dragonslayers are offended by the sheer disrespect you have for them. The kick you out without anything for the journey. You lose 25 health.")
         health = health - 25
     Qthree()
 else:
